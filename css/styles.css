@@ -1,5 +1,8 @@
 body {
     margin: 0;
+    background-color: darkslategray;
+    text-align: center;
+    color: white;
 }
 
 header {
@@ -30,20 +33,21 @@ header {
 }
 
 .Link-Box {
-    width: 85px;
-    display: block;
-    text-align: center;
-    border: 1px solid black;
-    background-color: white;
-    padding: 5px;
-    margin: 0;
-    white-space: nowrap;
+    width: 17%;
+    margin: 5px;
+    flex-wrap: wrap;
+}
+
+.Link-Box a {
+    text-decoration: none;
+    color: black
 }
 
 .Link-Box:hover {
-    box-shadow: 0 0 5px solid red;
     background-color: red;
-    padding: 3px 0px 3px 3px;
-    margin: 1px 1px 3px 0px;
-    border: 1px solid red;
+    transition: background-color .5s;
 }
+
+/* 
+
+*/
