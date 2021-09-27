@@ -3,6 +3,7 @@ body {
     background-color: darkslategray;
     text-align: center;
     color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header {
@@ -12,7 +13,7 @@ header {
     height: 150px;
     align-items: center;
     border-bottom: solid black;
-
+    font-family: sans-serif;
 }
 
 .Header-Container-Brandy {
@@ -26,6 +27,7 @@ header {
 
 .Header-Container-Link {
     display: flex;
+    width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -67,9 +69,10 @@ input[type=text] {
     box-sizing: border-box;
   }
 
-  img {
+  body>img {
     max-width:100%;
-    height:auto;
+    width: 700px;
+    height: 400px;
     max-height:100%;
   }
 /* 
